@@ -15,7 +15,7 @@ public class task04 {
         Arraylist  "yellow" , "red" , "blue" , "red" , "blue"
         s1 = blue
         s2 = yellow
-        Tüm blue 'ları yellow'a dönüştürün.
+        Tüm blue'ları yellow'a dönüştürün.
         cevap: "yellow" , "red" , "yellow" , "red" , "yellow"
      */
 
