@@ -20,27 +20,6 @@ public class task04 {
      */
 
     public static void main(String[] args) {
-        ArrayList<String>renkler=new ArrayList<String>(List.of("yellow" , "red" , "blue" , "red" , "blue"));
 
-        String s1="blue";
-        String s2="red";
-        changeInArraylist(renkler,s1,s2);
-        System.out.println("changeInArraylist(renkler,s1,s2) = " + changeInArraylist(renkler, s1, s2));
-    }
-    private static ArrayList changeInArraylist(ArrayList<String> renkler, String s1, String s2) {
-        ArrayList<String>yeniRenk=new ArrayList<>();
-
-        for (int i = 0; i < renkler.size() ; i++) {
-
-            if (renkler.get(i)==s1) {
-
-                yeniRenk.add(s2);
-
-            }else yeniRenk.add(renkler.get(i));
-        }
-
-        return yeniRenk;
-
-        //foreach() ile de çözülür
     }
 }
