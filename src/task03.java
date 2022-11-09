@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class task03 {
 
     /*
@@ -16,6 +19,17 @@ public class task03 {
 
     public static void main(String[] args) {
 
+        ArrayList<String> liste = new ArrayList<>(List.of("New jersey", "New york", "Ohio", "Florida", "Boston"));
+        System.out.println(getLength(liste));
 
+    }
+
+    public static ArrayList<Integer> getLength(ArrayList<String> list) {
+        ArrayList<Integer> lengList = new ArrayList<>();
+        for (String b : list){
+           lengList.add(b.length());
+        }
+
+        return lengList;
     }
 }
