@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class task03 {
 
     /*
@@ -14,8 +17,8 @@ public class task03 {
         cevap: 10 ,  8 , 4 , 7 , 6 olmalı
      */
 
-    public static void main(String[] args) {
 
 
-    }
+
+
 }
