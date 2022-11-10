@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class task06 {
 
     /*
@@ -13,6 +16,20 @@ public class task06 {
 
     public static void main(String[] args) {
 
+        ArrayList<Integer>list=new ArrayList<>(List.of(5,4,6,2,1));
+        System.out.println("hillNum(list) = " + hillNum(list));
+    }public static int hillNum(ArrayList<Integer>list){
+        int i=1;
+        int y=0;
+        ArrayList<Integer> yeni=new ArrayList<>();
+        for ( i = 1; i < list.size()-1; i++) {
+            if (list.get(i-1)>list.get(i)&&list.get(i)>list.get(i+1)){
+                y=list.get(i);
+            }
+        }
 
+
+        return y ;
     }
-}
+    }
+
